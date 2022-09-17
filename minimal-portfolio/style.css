@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #101214;
+    font-family: 'Roboto', sans-serif;
+    color: white
+}
+.profile h1{
+    font-size: 150px;
+    
+
+}
+
+
+.container{
+    height: 95vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.profile{
+
+    height: 300px;
+    width: 45vw;
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr) ;
+
+}
+.social{
+    grid-column: 1 / span 4;
+    display: grid;
+
+    grid-template-columns: repeat(3,1fr);
+    justify-self: center;
+    column-gap: 30px;
+}
+
+img{
+    height: 40px;
+}
+.head{
+    grid-column: 1 / span 4;
+    place-self: center;
+}
+.myname{
+    /* text-color: #75777b; */
+    margin-top: 20px;
+    margin-bottom: 30px;
+    place-self: center;
+    grid-column: 1 / span 4 ;
+}
+.place{
+    
+    margin-bottom: 30px;
+    grid-column: 1 / span 4 ;
+    place-self: center;
+}
+.me{
+   
+    width: 55vh;
+    
+}
+.about{
+    margin-bottom: 50px;
+}
+
+.experience{
+    margin-bottom: 50px;
+}
+
+.skills{
+    margin-bottom: 50px;
+}
+
+.projects{
+    margin-bottom: 50px;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color : #75777b;
+    text-decoration: none;
+    text-align: justify;
+}
+h3{
+    font-size: 30px;
+}
+
+h4{
+    font-size: 20px;
+}
+ul{
+    list-style: none;
+       
+
+}
+li{
+    margin-left: 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color : #75777b; 
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color : #75777b; 
+}
+a:hover{
+    color: burlywood;
+}
+
