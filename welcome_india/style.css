@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3) , rgba(0,0,0,0.1)) ,url(/Projects/welcome_india/images/taj-mahal-agra-india-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(0,0,0,0.1);
+    color :white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+
+
+nav .logo{
+    width: 40%;
+    text-align: center;
+    
+}
+nav h1{
+    font-size: 30px;
+    font-weight: bolder;
+    /* transition: all 0.5s ease; */
+}
+nav .menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    /* margin-right: 20px; */
+}
+
+nav .menu a{
+     width: 25%;
+     text-decoration: none;
+     color: white;
+     font-weight: bold;
+}
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+section h3{
+    margin: 20px;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+section h1{
+    font-size: 55px;
+    font-weight: 700px;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+}
+
+
+section p{
+    /* background-color: rgba(197, 21, 174, 0.501);
+    width: 500px; */
+    font-size: 25px;
+    word-spacing: 2px;
+    margin: 20px;
+    text-shadow: 2px 1px 5px black;
+    
+    margin-bottom: 30px;
+    /* align-items: center; */
+}
+
+header{
+    color: white;
+}
+
+section a{
+    padding: 12px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all .5s ease;
+
+}
+
+section .btn-one{
+    background-color: white;
+    color: black;
+    margin-right: 20px;
+}
+
+section .btn-two{
+    background-color: greenyellow;
+    color: black;
+
+}
+
+.btn-one:hover{
+    color: white;
+    background-color: greenyellow;
+}
+
+.btn-two:hover{
+    color: black;
+    background-color: white;
+}
+.change_content:after{
+    content:'';
+    animation: changetext 10s infinite linear;
+}
+span{
+    color:powderblue;
+}
+
+@keyframes changetext{
+    0%{content:"Darjeling";}
+    10%{content:"Delhi";}
+    20%{content:"Goa";}
+    30%{content:"Mumbai";}
+    40%{content:"not IITM";}
+    50%{content:"Pune";}
+    60%{content:"Agra";}
+    70%{content:"Himachal";}
+    80%{content:"Kerala";}
+    90%{content:"Punjab";}
+    100%{content:"Gujarat";}
+}
