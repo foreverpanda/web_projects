@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    color: antiquewhite;
+    scroll-behavior: smooth;
+}
+
+.nav-bar{
+    background-color: #5b0082;
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    color: antiquewhite;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 100;
+}
+
+{
+    
+}
+
+.logo h3{
+    padding: 22px;
+    
+}
+
+.nav-items ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav-items li{
+    font-weight:bold;
+    padding: 25px;
+    /* border: 2px solid black; */
+    /* border-radius: 100px; */
+
+}
+
+.nav-items li:hover{
+    transition: 0.4s ease-in-out;
+    color:cadetblue;
+    background-color: aliceblue;
+    
+}
+
+.first-section{
+    display: flex;
+    color: white;
+    height: 100vh;
+
+    background-image: url(https://github.com/foreverpanda/web_projects/blob/main/dj-playing-music-mixer.jpg?raw=true);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first-section h1{
+    font-size: 60px;
+    padding-bottom: 25px;
+}
+
+.first-section h4{
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+
+.first-section p{
+    width: 80vw;
+    text-align:center;
+}
+
+
+
+
+
+.music{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.blue-box{
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    flex-direction: column;
+    
+    background-color: #5b0082;
+    height: 50vh;
+}
+
+.blue-box h3{
+    font-size: 25px;
+    padding: 30px;
+}
+
+.blue-box h4{
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 30px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.btn-start{
+    background-color: red;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.iphone{
+
+    position: relative;
+    top: -150px;
+}
+
+.black-h4{
+    color: black;
+    font-size: 15px;
+    padding-bottom: 40px;
+}
+
+
+
+.black-p{
+    width: 70vw;
+    color: black;
+    font-size: 15px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+
+.btn-read{
+    background-color: rgb(2, 2, 75);
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.static{
+    background-image: url(https://github.com/anshuopinion/10-Practice-Project-Html-CSS/blob/master/Project%206/images/video.png?raw=true);
+    background-attachment: fixed;
+    height: 50vh;
+   
+  background-size: cover;
+  background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+
+}
+
+.static h3{
+    padding: 40px ;
+}
+
+.static p{
+    width: 60vw;
+    text-align: center;
+}
+
+.gift-card{
+
+    height: 30vh;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 10px;
+
+
+}
+
+.gift-card img{
+    height: 200px;
+}
+.container
+{
+    
+    padding-left: 50px;
+}
+.gift-card h3{
+    color: black;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.gift-card p{
+    color: black;
+    width: 500px;
+    padding-bottom: 30px;
+    line-height: 1.5;
+    letter-spacing: 1.4px;
+}
+
+.redeem{
+    background-color: rgb(2, 2, 75);
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+hr{
+    margin-bottom: 30px;
+}
+
+.low{
+    background-color: #1b0058;
+   
+}
+
+.footer-upper{
+
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.low ul{
+    padding:20px;
+}
+.low li{
+    padding: 3px;
+    font-size: 10px;
+    list-style: none;
+}
+.low h3{
+    text-decoration: underline;
+    font-size: 15px;
+    padding-bottom: 4px;
+}
+
+.last{
+
+    background-color: #270082;
+    height: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
